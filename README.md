@@ -3,10 +3,10 @@
 8/25/2021
 
 ### Project Title
-Explore US Bikeshare Data
+*Explore US Bikeshare Data*
 
 ### Description
-I Calculate statistics and build an interactive environment where a user chooses the data and filter for a dataset to analyze.
+*I Calculate statistics and build an interactive environment where a user chooses the data and filter for a dataset to analyze.*
 
 ### Files used
 * chicago.csv
@@ -14,5 +14,5 @@ I Calculate statistics and build an interactive environment where a user chooses
 * washington.csv
 
 ### Credits
-N/A
+**N/A**
 
