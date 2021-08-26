@@ -23,7 +23,7 @@ def get_filters():
         if city in ('chicago', 'new york city', 'washington'):
             break
         else:
-            print('Wrong input please choose again')
+            print('You provide invalid input, please choose again')
             city=input('\nWhich city do you want data for? chicago, new york city or washington?\n').lower()
             
 
@@ -35,7 +35,7 @@ def get_filters():
         if month in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
             break
         else:
-            print('Wrong input please choose again')
+            print('You provide invalid input, please choose again')
             month=input('\nWhich month you want data for? january, february, march, april, may, june or all?\n').lower()
             
 
@@ -46,7 +46,7 @@ def get_filters():
         if day in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all'):
             break
         else:
-            print('Wrong input please choose again')
+            print('You provide invalid input, please choose again')
             day=input('\nwhich day? monday, tuesday, wednesday, thursday, friday, saturday, sunday or all?\n').lower()
             
        
