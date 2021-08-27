@@ -17,37 +17,37 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city=input('Which city do you want data for? chicago, new york city or washington?').lower()
+    city=input('\nWhich city do you want data for? chicago, new york city or washington?\n').lower()
     while True:
 
         if city in ('chicago', 'new york city', 'washington'):
             break
         else:
-            print('Wrong input please choose again')
-            city=input('Which city do you want data for? chicago, new york city or washington?').lower()
+            print('You provide invalid input, please choose again')
+            city=input('\nWhich city do you want data for? chicago, new york city or washington?\n').lower()
             
 
 
         # TO DO: get user input for month (all, january, february, ... , june)
-    month=input('Which month you want data for? january, february, march, april, may, june or all?').lower()
+    month=input('\nWhich month you want data for? january, february, march, april, may, june or all?\n').lower()
     while True:
 
         if month in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
             break
         else:
-            print('Wrong input please choose again')
-            month=input('Which month you want data for? january, february, march, april, may, june or all?').lower()
+            print('You provide invalid input, please choose again')
+            month=input('\nWhich month you want data for? january, february, march, april, may, june or all?\n').lower()
             
 
         # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    day=input('which day? monday, tuesday, wednesday, thursday, friday, saturday, sunday or all?').lower()
+    day=input('\nwhich day? monday, tuesday, wednesday, thursday, friday, saturday, sunday or all?\n').lower()
     while True:
 
         if day in ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all'):
             break
         else:
-            print('Wrong input please choose again')
-            day=input('which day? monday, tuesday, wednesday, thursday, friday, saturday, sunday or all?').lower()
+            print('You provide invalid input, please choose again')
+            day=input('\nwhich day? monday, tuesday, wednesday, thursday, friday, saturday, sunday or all?\n').lower()
             
        
 
